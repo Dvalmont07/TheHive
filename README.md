@@ -1,4 +1,4 @@
 # TheHive
-A study project of a hive menagement 
+A beehive study project 
 ## Keys
-A project design to study heritage
+A project designed to study class inheritance 
