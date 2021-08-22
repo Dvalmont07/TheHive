@@ -84,6 +84,12 @@ namespace TheHive
             // shift
             // 
             this.shift.FormattingEnabled = true;
+            this.shift.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"});
             this.shift.Location = new System.Drawing.Point(249, 46);
             this.shift.Name = "shift";
             this.shift.Size = new System.Drawing.Size(119, 23);
@@ -92,6 +98,13 @@ namespace TheHive
             // tasks
             // 
             this.tasks.FormattingEnabled = true;
+            this.tasks.Items.AddRange(new object[] {
+            "Collect honey",
+            "Produce honey",
+            "Take care of the eggs",
+            "Teach baby bees",
+            "Maintain hive",
+            "Patrol"});
             this.tasks.Location = new System.Drawing.Point(6, 46);
             this.tasks.Name = "tasks";
             this.tasks.Size = new System.Drawing.Size(237, 23);
