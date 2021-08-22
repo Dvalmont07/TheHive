@@ -1,7 +1,10 @@
 ﻿
+using System.Collections.Generic;
+using TheHive.Classes;
+
 namespace TheHive
 {
-    partial class theHive
+    partial class Hive
     {
         /// <summary>
         ///  Required designer variable.
@@ -98,13 +101,6 @@ namespace TheHive
             // tasks
             // 
             this.tasks.FormattingEnabled = true;
-            this.tasks.Items.AddRange(new object[] {
-            "Collect honey",
-            "Produce honey",
-            "Take care of the eggs",
-            "Teach baby bees",
-            "Maintain hive",
-            "Patrol"});
             this.tasks.Location = new System.Drawing.Point(6, 46);
             this.tasks.Name = "tasks";
             this.tasks.Size = new System.Drawing.Size(237, 23);
@@ -127,7 +123,7 @@ namespace TheHive
             this.report.Size = new System.Drawing.Size(491, 210);
             this.report.TabIndex = 2;
             // 
-            // theHive
+            // Hive
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -135,7 +131,7 @@ namespace TheHive
             this.Controls.Add(this.report);
             this.Controls.Add(this.nextShift);
             this.Controls.Add(this.groupBox1);
-            this.Name = "theHive";
+            this.Name = "Hive";
             this.Text = "The Hive";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
