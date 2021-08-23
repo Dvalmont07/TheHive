@@ -2,7 +2,7 @@
 
 namespace TheHive.Classes
 {
-    public class WorkerTask
+    public class Job
     {
         public Guid Id { get; set; } = Guid.NewGuid();
         public string Name { get; set; }
